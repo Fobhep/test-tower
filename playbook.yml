@@ -4,5 +4,5 @@
     - name: debug private var
       debug:
         var: priv_ssh_key
-  roles:
-    - ansible-role-nginx
+  #roles:
+  #  - ansible-role-nginx
