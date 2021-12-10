@@ -1,5 +1,5 @@
 ---
-- hosts: test-server
+- hosts: localhost
   pre_tasks:
     - name: debug private var
       debug:
