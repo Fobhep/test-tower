@@ -1,4 +1,8 @@
 ---
 - hosts: test-server
+  pre_tasks:
+    - name: debug private var
+      debug:
+        var: priv_ssh_key
   roles:
     - ansible-role-nginx
